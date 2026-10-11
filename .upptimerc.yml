@@ -23,9 +23,6 @@ sites:
   - name: paperless-ai
     url: https://paperless-ai.pontiff.de
     expectedStatusCodes: [200, 301, 302, 307, 401]
-  - name: wechat
-    url: https://wechat.pontiff.de
-    expectedStatusCodes: [200, 301, 302, 307, 401]
   - name: stirling-pdf
     url: https://stirling-pdf.pontiff.de
     expectedStatusCodes: [200, 301, 302, 307, 401]
@@ -53,8 +50,6 @@ sites:
     url: https://n8n.pontiff.de
   - name: qbittorrent
     url: https://qbittorrent.pontiff.de
-  - name: spiderfoot
-    url: https://spiderfoot.pontiff.de
   - name: filebrowser
     url: https://filebrowser.pontiff.de
   - name: paperless
@@ -86,8 +81,8 @@ sites:
   - name: apprise-api
     url: https://apprise-api.pontiff.de
     expectedStatusCodes: [200, 301, 302, 307, 401]
-  - name: osint-people
-    url: https://osint-people.pontiff.de
+  - name: osint
+    url: https://osint.pontiff.de
     expectedStatusCodes: [200, 301, 302, 307, 401]
   - name: wireguard
     url: https://wireguard.pontiff.de
