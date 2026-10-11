@@ -1,7 +1,7 @@
 url: https://calibre-web.pontiff.de
-status: up
-code: 200
-responseTime: 570
-lastUpdated: 2026-10-11T16:46:50.909Z
+status: down
+code: 502
+responseTime: 249
+lastUpdated: 2026-10-11T17:01:53.226Z
 startTime: 2026-10-11T16:46:50.338Z
 generator: Upptime <https://github.com/upptime/upptime>
