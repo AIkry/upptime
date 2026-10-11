@@ -3,88 +3,123 @@ owner: AIkry # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
 
 sites:
-  - name: clickhouse
+  - name: clickhouse.pontiff.de
+    slug: clickhouse
     url: https://clickhouse.pontiff.de
-  - name: cloudbeaver
+  - name: cloudbeaver.pontiff.de
+    slug: cloudbeaver
     url: https://cloudbeaver.pontiff.de
-  - name: syncthing-obsidian
+  - name: syncthing-obsidian.pontiff.de
+    slug: syncthing-obsidian
     url: https://syncthing-obsidian.pontiff.de
-  - name: open-webui
+  - name: open-webui.pontiff.de
+    slug: open-webui
     url: https://open-webui.pontiff.de
-  - name: calibre-web
+  - name: calibre-web.pontiff.de
+    slug: calibre-web
     url: https://calibre-web.pontiff.de
     expectedStatusCodes: [200, 301, 302, 307, 401]
-  - name: kavita
+  - name: kavita.pontiff.de
+    slug: kavita
     url: https://kavita.pontiff.de
-  - name: qbit-oracle
+  - name: qbit-oracle.pontiff.de
+    slug: qbit-oracle
     url: https://qbit-oracle.pontiff.de
-  - name: thelounge
+  - name: thelounge.pontiff.de
+    slug: thelounge
     url: https://thelounge.pontiff.de
-  - name: paperless-ai
+  - name: paperless-ai.pontiff.de
+    slug: paperless-ai
     url: https://paperless-ai.pontiff.de
     expectedStatusCodes: [200, 301, 302, 307, 401]
-  - name: stirling-pdf
+  - name: stirling-pdf.pontiff.de
+    slug: stirling-pdf
     url: https://stirling-pdf.pontiff.de
     expectedStatusCodes: [200, 301, 302, 307, 401]
-  - name: syncthing-oracle
+  - name: syncthing-oracle.pontiff.de
+    slug: syncthing-oracle
     url: https://syncthing-oracle.pontiff.de
-  - name: calibre
+  - name: calibre.pontiff.de
+    slug: calibre
     url: https://calibre.pontiff.de
-  - name: social-analyzer
+  - name: social-analyzer.pontiff.de
+    slug: social-analyzer
     url: https://social-analyzer.pontiff.de
-  - name: searxng
+  - name: searxng.pontiff.de
+    slug: searxng
     url: https://searxng.pontiff.de
-  - name: chromium
+  - name: chromium.pontiff.de
+    slug: chromium
     url: https://chromium.pontiff.de
     expectedStatusCodes: [200, 301, 302, 307, 401]
-  - name: navidrome
+  - name: navidrome.pontiff.de
+    slug: navidrome
     url: https://navidrome.pontiff.de
     expectedStatusCodes: [200, 301, 302, 307, 401]
-  - name: flaresolverr
+  - name: flaresolverr.pontiff.de
+    slug: flaresolverr
     url: https://flaresolverr.pontiff.de
-  - name: syncthing
+  - name: syncthing.pontiff.de
+    slug: syncthing
     url: https://syncthing.pontiff.de
-  - name: ntfy
+  - name: ntfy.pontiff.de
+    slug: ntfy
     url: https://ntfy.pontiff.de
-  - name: n8n
+  - name: n8n.pontiff.de
+    slug: n8n
     url: https://n8n.pontiff.de
-  - name: qbittorrent
+  - name: qbittorrent.pontiff.de
+    slug: qbittorrent
     url: https://qbittorrent.pontiff.de
-  - name: filebrowser
+  - name: filebrowser.pontiff.de
+    slug: filebrowser
     url: https://filebrowser.pontiff.de
-  - name: paperless
+  - name: paperless.pontiff.de
+    slug: paperless
     url: https://paperless.pontiff.de
     expectedStatusCodes: [200, 301, 302, 307, 401]
-  - name: karakeep
+  - name: karakeep.pontiff.de
+    slug: karakeep
     url: https://karakeep.pontiff.de
     expectedStatusCodes: [200, 301, 302, 307, 401]
-  - name: miniflux
+  - name: miniflux.pontiff.de
+    slug: miniflux
     url: https://miniflux.pontiff.de
-  - name: glance
+  - name: glance.pontiff.de
+    slug: glance
     url: https://glance.pontiff.de
-  - name: questdb
+  - name: questdb.pontiff.de
+    slug: questdb
     url: https://questdb.pontiff.de
     expectedStatusCodes: [200, 301, 302, 307, 401]
-  - name: portainer
+  - name: portainer.pontiff.de
+    slug: portainer
     url: https://portainer.pontiff.de
-  - name: podcast
+  - name: podcast.pontiff.de
+    slug: podcast
     url: https://podcast.pontiff.de
     expectedStatusCodes: [200, 301, 302, 307, 401]
-  - name: nzbhydra2
+  - name: nzbhydra2.pontiff.de
+    slug: nzbhydra2
     url: https://nzbhydra2.pontiff.de
     expectedStatusCodes: [200, 301, 302, 307, 401]
-  - name: clickhouse-netcup
+  - name: clickhouse-netcup.pontiff.de
+    slug: clickhouse-netcup
     url: https://clickhouse-netcup.pontiff.de
-  - name: historical-news
+  - name: historical-news.pontiff.de
+    slug: historical-news
     url: https://historical-news.pontiff.de
     expectedStatusCodes: [200, 301, 302, 307, 401]
-  - name: apprise-api
+  - name: apprise-api.pontiff.de
+    slug: apprise-api
     url: https://apprise-api.pontiff.de
     expectedStatusCodes: [200, 301, 302, 307, 401]
-  - name: osint
+  - name: osint.pontiff.de
+    slug: osint
     url: https://osint.pontiff.de
     expectedStatusCodes: [200, 301, 302, 307, 401]
-  - name: wireguard
+  - name: wireguard.pontiff.de
+    slug: wireguard
     url: https://wireguard.pontiff.de
     expectedStatusCodes: [200, 301, 302, 307, 401]
 
@@ -93,11 +128,12 @@ assignees:
   - AIkry
 
 status-website:
-  # No custom domain, so the page is served from the repository path
+  # Add your custom domain name, or remove the `cname` line if you don't have a domain
+  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   baseUrl: /upptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Status
-  introTitle: "Status and uptime monitor."
+  name: pontiff.de Status
+  introTitle: "**pontiff.de** status and uptime monitor."
   introMessage: Real-time uptime data powered by GitHub Actions, Issues, and Pages. No server required.
   navbar:
     - title: Status
