@@ -42,9 +42,6 @@ sites:
   - name: calibre.pontiff.de
     slug: calibre
     url: https://calibre.pontiff.de
-  - name: social-analyzer.pontiff.de
-    slug: social-analyzer
-    url: https://social-analyzer.pontiff.de
   - name: searxng.pontiff.de
     slug: searxng
     url: https://searxng.pontiff.de
@@ -88,10 +85,6 @@ sites:
   - name: glance.pontiff.de
     slug: glance
     url: https://glance.pontiff.de
-  - name: questdb.pontiff.de
-    slug: questdb
-    url: https://questdb.pontiff.de
-    expectedStatusCodes: [200, 301, 302, 307, 401]
   - name: portainer.pontiff.de
     slug: portainer
     url: https://portainer.pontiff.de
