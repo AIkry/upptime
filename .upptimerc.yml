@@ -2,10 +2,96 @@
 owner: AIkry # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
 
-# No sites monitored yet. Add entries like:
-#   - name: Example
-#     url: https://example.com
-sites: []
+sites:
+  - name: clickhouse
+    url: https://clickhouse.pontiff.de
+  - name: cloudbeaver
+    url: https://cloudbeaver.pontiff.de
+  - name: syncthing-obsidian
+    url: https://syncthing-obsidian.pontiff.de
+  - name: open-webui
+    url: https://open-webui.pontiff.de
+  - name: calibre-web
+    url: https://calibre-web.pontiff.de
+    expectedStatusCodes: [200, 301, 302, 307, 401]
+  - name: kavita
+    url: https://kavita.pontiff.de
+  - name: qbit-oracle
+    url: https://qbit-oracle.pontiff.de
+  - name: thelounge
+    url: https://thelounge.pontiff.de
+  - name: paperless-ai
+    url: https://paperless-ai.pontiff.de
+    expectedStatusCodes: [200, 301, 302, 307, 401]
+  - name: wechat
+    url: https://wechat.pontiff.de
+    expectedStatusCodes: [200, 301, 302, 307, 401]
+  - name: stirling-pdf
+    url: https://stirling-pdf.pontiff.de
+    expectedStatusCodes: [200, 301, 302, 307, 401]
+  - name: syncthing-oracle
+    url: https://syncthing-oracle.pontiff.de
+  - name: calibre
+    url: https://calibre.pontiff.de
+  - name: social-analyzer
+    url: https://social-analyzer.pontiff.de
+  - name: searxng
+    url: https://searxng.pontiff.de
+  - name: chromium
+    url: https://chromium.pontiff.de
+    expectedStatusCodes: [200, 301, 302, 307, 401]
+  - name: navidrome
+    url: https://navidrome.pontiff.de
+    expectedStatusCodes: [200, 301, 302, 307, 401]
+  - name: flaresolverr
+    url: https://flaresolverr.pontiff.de
+  - name: syncthing
+    url: https://syncthing.pontiff.de
+  - name: ntfy
+    url: https://ntfy.pontiff.de
+  - name: n8n
+    url: https://n8n.pontiff.de
+  - name: qbittorrent
+    url: https://qbittorrent.pontiff.de
+  - name: spiderfoot
+    url: https://spiderfoot.pontiff.de
+  - name: filebrowser
+    url: https://filebrowser.pontiff.de
+  - name: paperless
+    url: https://paperless.pontiff.de
+    expectedStatusCodes: [200, 301, 302, 307, 401]
+  - name: karakeep
+    url: https://karakeep.pontiff.de
+    expectedStatusCodes: [200, 301, 302, 307, 401]
+  - name: miniflux
+    url: https://miniflux.pontiff.de
+  - name: glance
+    url: https://glance.pontiff.de
+  - name: questdb
+    url: https://questdb.pontiff.de
+    expectedStatusCodes: [200, 301, 302, 307, 401]
+  - name: portainer
+    url: https://portainer.pontiff.de
+  - name: podcast
+    url: https://podcast.pontiff.de
+    expectedStatusCodes: [200, 301, 302, 307, 401]
+  - name: nzbhydra2
+    url: https://nzbhydra2.pontiff.de
+    expectedStatusCodes: [200, 301, 302, 307, 401]
+  - name: clickhouse-netcup
+    url: https://clickhouse-netcup.pontiff.de
+  - name: historical-news
+    url: https://historical-news.pontiff.de
+    expectedStatusCodes: [200, 301, 302, 307, 401]
+  - name: apprise-api
+    url: https://apprise-api.pontiff.de
+    expectedStatusCodes: [200, 301, 302, 307, 401]
+  - name: osint-people
+    url: https://osint-people.pontiff.de
+    expectedStatusCodes: [200, 301, 302, 307, 401]
+  - name: wireguard
+    url: https://wireguard.pontiff.de
+    expectedStatusCodes: [200, 301, 302, 307, 401]
 
 # Who gets assigned (and notified) when a site goes down
 assignees:

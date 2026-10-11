@@ -2,7 +2,7 @@
 
 Uptime monitor and status page built from the [Upptime](https://github.com/upptime/upptime) template.
 
-No sites are monitored yet.
+Monitors the services on pontiff.de.
 
 ## Add a site
 
