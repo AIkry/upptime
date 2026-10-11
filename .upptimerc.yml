@@ -1,0 +1,28 @@
+# Change these first
+owner: AIkry # Your GitHub organization or username, where this repository lives
+repo: status # The name of this repository
+
+# No sites monitored yet. Add entries like:
+#   - name: Example
+#     url: https://example.com
+sites: []
+
+# Who gets assigned (and notified) when a site goes down
+assignees:
+  - AIkry
+
+status-website:
+  # No custom domain, so the page is served from the repository path
+  baseUrl: /status
+  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  name: Status
+  introTitle: "Status and uptime monitor."
+  introMessage: Real-time uptime data powered by GitHub Actions, Issues, and Pages. No server required.
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
+
+# Upptime also supports notifications, assigning issues, and more
+# See https://upptime.js.org/docs/configuration
