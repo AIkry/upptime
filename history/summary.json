@@ -430,7 +430,7 @@
     "timeMonth": 342,
     "timeYear": 342,
     "dailyMinutesDown": {
-      "2026-10-19": 199,
+      "2026-10-19": 232,
       "2026-10-18": 1440,
       "2026-10-17": 1440,
       "2026-10-16": 1440,
@@ -458,7 +458,7 @@
     "timeMonth": 286,
     "timeYear": 286,
     "dailyMinutesDown": {
-      "2026-10-19": 199,
+      "2026-10-19": 232,
       "2026-10-18": 1440,
       "2026-10-17": 1440,
       "2026-10-16": 1440,
@@ -546,18 +546,20 @@
     "url": "https://historical-news.pontiff.de",
     "icon": "https://icons.duckduckgo.com/ip3/historical-news.pontiff.de.ico",
     "slug": "historical-news",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 579,
-    "timeDay": 525,
-    "timeWeek": 674,
-    "timeMonth": 579,
-    "timeYear": 579,
-    "dailyMinutesDown": {}
+    "time": 564,
+    "timeDay": 455,
+    "timeWeek": 638,
+    "timeMonth": 564,
+    "timeYear": 564,
+    "dailyMinutesDown": {
+      "2026-10-19": 0
+    }
   },
   {
     "name": "apprise-api.pontiff.de",
