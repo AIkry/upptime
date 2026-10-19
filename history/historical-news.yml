@@ -1,7 +1,7 @@
 url: https://historical-news.pontiff.de
-status: up
-code: 200
-responseTime: 525
-lastUpdated: 2026-10-19T01:00:20.098Z
+status: down
+code: 502
+responseTime: 385
+lastUpdated: 2026-10-19T03:51:54.496Z
 startTime: 2026-10-11T16:57:31.835Z
 generator: Upptime <https://github.com/upptime/upptime>
